@@ -1,0 +1,11 @@
+a) ouvre le serveur
+
+b) curl -i http://localhost:8080/tasks --noproxy localhost -->  envoie une requête HTTP GET à la ressource tasks. L'option -i permet l'affichage des en-tête HTTP
+
+c)  curl -i -X POST http://localhost:8080/tasks -d"nom=tache 1" -d"description=operation CRUD" --noproxy localhost
+
+d) demander le detail de la tache 2 --> curl -i http://localhost:8080/tasks/2 --noproxy localhost
+  
+e) curl -i -X PUT http://localhost:8080/tasks/3  -d "description=recenser les URL et operations HTTP utilisables" --noproxy localhost
+
+

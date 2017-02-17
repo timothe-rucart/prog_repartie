@@ -1,0 +1,16 @@
+Exercice 4.1
+
+1) 	fichier local : /etc/services
+	web :  http://www.frameip.com/
+
+2) port :
+	DAYTIME 	: 13
+	ECHO 		: 7
+	CHARGEN 	: 19
+	TELNET 		: 23
+	SSH 		: 22
+	SMTP 		: 465
+	POP3 		: 995
+	FTP 		: 20 ou 21
+	IMAP 2 		: 143
+	IMAP 3		: 220
